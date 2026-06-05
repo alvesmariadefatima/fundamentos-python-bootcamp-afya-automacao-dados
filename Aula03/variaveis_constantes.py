@@ -2,6 +2,8 @@ nome = 'Maria de Fátima'
 
 idade = 25
 
+nome, idade = "Maria de Fátima", 25
+
 print(nome, idade)
 
 # Padrão Snake Case
