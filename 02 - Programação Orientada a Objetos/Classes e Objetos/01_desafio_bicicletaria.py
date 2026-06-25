@@ -1,9 +1,10 @@
 class Bicicleta:
-    def __init__(self, cor, modelo, ano, valor):
+    def __init__(self, cor, modelo, ano, valor, aro=None):
         self.cor = cor
         self.modelo = modelo
         self.ano = ano
         self.valor = valor
+        self.aro = aro
 
     def buzinar(self):
         print("Plim plim...")
@@ -24,5 +25,5 @@ b1.correr()
 b1.parar()
 print(b1.cor, b1.modelo, b1.ano, b1.valor)
 
-b2 = Bicicleta("verde", "monark", 2000, 189)
+b2 = Bicicleta("verde", "monark", 2000, 189, 26)
 print(b2)
